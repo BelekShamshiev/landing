@@ -63,7 +63,7 @@ const Build = () => {
           <img  className="test" src={cat_coffe} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="test" src={cat_coffe} alt="" />
+          <img src={cat_coffe} alt="" />
         </SwiperSlide>
       </Swiper>            
         </div>

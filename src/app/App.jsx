@@ -10,7 +10,7 @@ import Feature from "../components/Feature/Feature";
 import Despina from "../components/Despina/Despina";
 import Blog from "../components/Blog/Blog";
 import Client from "../components/Client/Client";
-import './app.css'
+
 function App() {
   return (
     <div className="App">

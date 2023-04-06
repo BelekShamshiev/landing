@@ -1,6 +1,6 @@
 .container_Build {
   background-color: white;
-  height: 800px;
+  height: 1090px;
   justify-content: center;
   max-width: 94%;
   margin: 0 auto;
@@ -29,6 +29,6 @@
 }
 
 .test{
-  /* width: 235px;
-  height: 190px; */
+  width: 235px;
+  height: 190px;
 }
