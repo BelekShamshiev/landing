@@ -1,0 +1,54 @@
+body{
+height: 1000px;
+max-width: 1600px;
+width: 100%;
+margin: 0 auto;
+}
+/* @media (max-with:1600px){
+    .container{
+      max-width: 991px;
+    }
+  } */
+.container{
+    background-color: rgba(184, 146, 49, 0.932);
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.img_h{
+    /* margin-left: 100px; */
+    width: 150px;
+    height: 82px;
+}
+.p_h{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.phone{
+    height: 28px;
+    height: 17px;
+}
+.basket{
+    height: 28px;
+    height: 17px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: -20px;
+
+}
+
+.bob{
+    margin-top: 500px;
+    z-index: -1;
+}
