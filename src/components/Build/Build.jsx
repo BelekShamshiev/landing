@@ -26,15 +26,15 @@ const Build = () => {
         breakpoints={{
           640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 10,
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
+            slidesPerView: 4.1,
+            spaceBetween: 30,
           },
         }}
         modules={[Pagination]}
@@ -62,9 +62,7 @@ const Build = () => {
         <SwiperSlide>
           <img  className="test" src={cat_coffe} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={cat_coffe} alt="" />
-        </SwiperSlide>
+
       </Swiper>            
         </div>
         

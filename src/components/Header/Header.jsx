@@ -7,24 +7,27 @@ const Header = () => {
   return (
     <div className="container">
       <div className="header">
-        <img className="img_h" src={logo} alt="logo" />
-        <div className="p_h">
+        <div className="header_logo">
+          <img src={logo} alt="" />
+        </div>
+        <div className="header_p">
           <p>HOME</p>
-          <p>MENU </p>
+          <p>MENU</p>
           <p>SHOP</p>
           <p>PAGES</p>
           <p>BLOCK</p>
           <p>CONTACT</p>
-          <div className="details">
-            <img className="phone" src={phone} alt="phone" />
+        </div>
+        <div className="dop">
+        <div className="phone">
+          <div className="phone_img">
+            <img src={phone} alt="" />
+            <p>123-456-789</p>
           </div>
-          <div className="p_phone">
-          <p>123-456-789</p>
           <div className="basket">
             <img src={basket} alt="" />
             <p>0- $0.00</p>
           </div>
-    
           </div>
         </div>
       </div>
@@ -33,3 +36,4 @@ const Header = () => {
 };
 
 export default Header;
+

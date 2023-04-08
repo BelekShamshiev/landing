@@ -96,7 +96,7 @@ line-height: 22px;
 display: flex;
 align-items: center;
 text-align: center;
-color: #FFFFFF;
+color: #ffffff;
 
 }
 .Success{
@@ -114,7 +114,23 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color:#FFFFFF;
+color:#ffffff;
 
 
 }
+.belek  {
+  text-align: center;
+  font-size: 18px;
+  width: 800px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0);
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

@@ -21,7 +21,7 @@ const Coffe = ({img , coffeName , price , title}) => {
         </p>
       </div> */}
       <div className="cofe">
-        <div>
+        <div className="img_disk">
             <img src={img} alt="" />
         </div>
         <div>
@@ -30,7 +30,7 @@ const Coffe = ({img , coffeName , price , title}) => {
                 <p>$ {price}</p>
             </div>
             <div className="huina">
-                -----------------------------------------------
+                ---------------------------------------------------------
             </div>
             <div>
                 <p>{title}</p>

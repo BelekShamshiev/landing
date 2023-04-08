@@ -19,8 +19,9 @@ const Hero = () => {
           <img src={coctail} alt="coctail" /> <p>Coctail</p>
           <img src={bewerages} alt="bewerages" /> <p>Bewerages</p>
           <img src={tea} alt="tea" /> <p>Tea</p>
+          <img src={cake} alt="cake" /> <p>Cake</p>
+
         </div>
-        <img src={cake} alt="cake" /> <p>Cake</p>
       </div>
       <div className={s.best}>
         <div className={s.line}></div>

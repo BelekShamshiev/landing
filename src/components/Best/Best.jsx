@@ -18,7 +18,6 @@ const Best = () => {
         effect={"creative"}
         creativeEffect={{
           prev: {
-            shadow: true,
             translate: [0, 0, -400],
           },
           next: {
@@ -28,6 +27,10 @@ const Best = () => {
         modules={[EffectCreative]}
         className="mySwiper"
       >
+
+        <div className="">
+          {/* <img src= alt="" /> */}
+        </div>
         <SwiperSlide>
             <div className="rentagle_test_one">
             <img src={rentangle} alt="rentagle_test_one" />
